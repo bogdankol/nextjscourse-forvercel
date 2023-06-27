@@ -35,7 +35,7 @@ export default function PostContent({ post }) {
     code(code) {
       const { className, children } = code
       const language = className.split('-')[1]
-      return <Prism style={atomDark} language={language} children={children } />
+      return <PrismLight style={atomDark} language={language} children={children} />
     }
 	}
 
