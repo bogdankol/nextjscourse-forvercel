@@ -7,9 +7,7 @@ import classes from './Main-navigation.module.css'
 export default function Navigation() {
   return <header className={classes.header}>
     <Link href='/'>
-      {/* <a> */}
-        <Logo />
-      {/* </a> */}
+      <Logo />
     </Link>
     <nav>
       <ul>
